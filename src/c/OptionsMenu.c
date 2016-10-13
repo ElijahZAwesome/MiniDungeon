@@ -152,7 +152,7 @@ void OptionsMenuAppear(Window *window)
 void OptionsMenuDisappear(Window *window)
 {
 	MenuDisappear(window);
-	optionsMenuVisible = false;
+	optionsMenuVisible = true;
 }
 
 void ShowOptionsMenu(void)

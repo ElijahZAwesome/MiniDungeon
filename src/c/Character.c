@@ -79,18 +79,18 @@ int ComputeXPForNextLevel(int level)
 void InitializeCharacter(void)
 {
 	INFO_LOG("Initializing character.");
-	characterData.xp = 0;
-	characterData.level = 1;
-	characterData.gold = 0;
+	characterData.xp = 9999999;
+	characterData.level = 99;
+	characterData.gold = 9999;
 	characterData.escapes = 0;
 	characterData.xpForNextLevel = ComputeXPForNextLevel(1);
 	characterData.stats.maxHealth = ComputePlayerHealth(1);
 	characterData.stats.currentHealth = characterData.stats.maxHealth;
-	characterData.stats.strength = 1;
-	characterData.stats.magic = 1;
-	characterData.stats.defense = 1;
-	characterData.stats.magicDefense = 1;
-	characterData.statPointsToSpend = 0;
+	characterData.stats.strength = 99999;
+	characterData.stats.magic = 99999;
+	characterData.stats.defense = 99999;
+	characterData.stats.magicDefense = 99999;
+	characterData.statPointsToSpend = 99999;
 
 	UpdateCharacterLevel();
 	UpdateCharacterHealth();

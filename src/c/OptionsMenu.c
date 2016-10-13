@@ -9,7 +9,7 @@ static bool vibration = true;
 static bool fastMode = false;
 static bool useWorkerApp = false;
 static bool workerCanLaunch = true;
-static bool optionsMenuVisible = false;
+static bool optionsMenuVisible = true;
 static bool useOldAssets = false;
 
 void DrawOptionsMenu(void)

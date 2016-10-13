@@ -2,9 +2,9 @@
     "author": "Torivon+ElijahB",
     "dependencies": {},
     "keywords": [],
-    "name": "minidungeonop",
+    "name": "opdungeon",
     "pebble": {
-        "displayName": "MiniDungeonOP",
+        "displayName": "OPDungeon",
         "enableMultiJS": false,
         "messageKeys": [],
         "projectType": "native",
